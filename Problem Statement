@@ -1,0 +1,14 @@
+
+Problem Statement
+
+An educational institution requires a digital system to manage and validate student course registrations. Design and implement a Java program for a Student Course Registration System that models a student's enrollment data and financial details.
+The system must:
+1. Initialize student records (Name, Roll Number, Marks) and course details (Course Name, Credits) using a parameterized constructor.
+2. Determine eligibility for registration based on academic performance (minimum 50 marks required).
+3. Calculate the base tuition fee at a flat rate of Rs. 1500 per credit.
+4. Apply a merit-based scholarship discount on the base fee:
+	• 20% discount for marks \(\ge \) 85.
+	• 10% discount for marks between 70 and 84 (inclusive).
+	• No discount for marks below 70.
+5. Compute the final payable fee after deducting the scholarship.
+6. Display a comprehensive summary if the student is eligible, or reject the registration with an appropriate warning message if they are not. All business logic must be encapsulated within specific class methods rather than the main() method.
